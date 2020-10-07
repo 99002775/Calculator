@@ -77,3 +77,17 @@ void modulus()
     printf("Factorial of entered number %d is:%d\n",num,fact);
     return 0;
 }
+void power()
+{
+    double a,num, p;
+    printf("\nEnter two numbers to find the power \n");
+    printf("number: ");
+    scanf("%lf",&a);
+ 
+    printf("power : ");
+    scanf("%lf",&num);
+ 
+    p=pow(a,num);
+ 
+    printf("\n%lf to the power %lf = %lf \n",a,num,p);
+}
